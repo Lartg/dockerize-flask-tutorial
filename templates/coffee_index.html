@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Coffee Rituals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="main-content">
+    <header>
+      <h1><button id="about-button">Why brew at Home?</button></h1>
+      <h1><button id="brew-var-button">Overview of Brewing Variables</button></h1>
+      <h1><button id=method-button>Methods</button></h1>
+    </header>
+    <section id="about">
+      <div id="cost-card">
+        <h3>Cost</h3>
+        <figure><img src="IMAGES/original.png"></figure>
+        <figcaption>Money</figcaption>
+        <div class="about-card-text">
+          <h4>Cheaper</h4>
+          <p>A 12oz latte costs -on average- $4.00. &nbsp;
+            However, ~$17 nets a 1 lbs bag of whole bean, speciality coffee. &nbsp;
+            That comes out to ~23 cups of coffee/bag, or ~$0.75/cup. &nbsp;
+            It's even cheaper when buying commercial coffee in bulk. &nbsp;
+            Coffee is a commodity. &nbsp;
+            It's cheap. &nbsp;
+            Coffee being expensive at a cafe is a result of the accrued costs of running a business.
+          </p>
+      </div>
+      </div>
+      <div id="time-card">
+        <h3>Time</h3>
+        <figure><img
+            src="IMAGES/png-transparent-alarm-clock-cartoon-blue-simple-alarm-clock-decoration-pattern-blue-electronics-simple.png">
+        </figure>
+        <figcaption>Clock</figcaption>
+        <div class="about-card-text">
+          <h4>Faster</h4>
+          <p>
+            On average it takes a 10 minute round trip for me to get to a cafe from my house.&nbsp;
+            Factor in ~5 minutes in line, and ~5 minutes until I get my drink, and I've spent 20 minutes getting coffee.
+            &nbsp;
+            At home I can brew coffee in less than 5 minutes, saving time and money.
+          </p>
+      </div>
+      </div>
+      <div id="flavor-card">
+        <h3>Flavor</h3>
+        <figure><img src="IMAGES/Basically-Pour-Over-lede.jpeg"></figure>
+        <figcaption>Brewer</figcaption>
+        <div class="about-card-text">
+          <h4>Brew perfect coffee</h4>
+          <p>
+            Something about the routine of brewing is satsfying and calming. &nbsp;
+            But beyond that, one is able -with experience- to control variables of brewing to curtail their recipe to
+            perfectly match their tastes.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="brewing-variables">
+      <h3>TLDR: Coffee can taste good because science</h3>
+      <h4 id="category-header">Categories of Brewing</h4>
+      <div id="infuse-v-perc">
+        <figure>
+          <img src="IMAGES/brewVariablesImages/infusion.jpg">
+          <figcaption>Infusion</figcaption>
+        </figure>
+        <p>
+          Brewing coffee or tea is the act of extracting material from plant cells,
+          usually with water.
+          There are two ways to brew:
+          One is infusion, kind of like a bath.
+          Plant matter is soaked in water and material diffuses throughout the solution.
+          The second is percolation, kind of like a shower.
+          Water is poured over the plant matter and a filter, carrying what dissolves
+          -and can pass through the filter- into your cup.
+        </p>
+        <figure>
+          <img src="IMAGES/brewVariablesImages/percolation.jpeg">
+          <figcaption>Percolation</figcaption>
+        </figure>
+      </div>
+      <h4 id="extract-header">Qualities of a good extraction</h4>
+      <div id="extract-overview">
+        <figure>
+          <img src="IMAGES/brewVariablesImages/SCA-Brewing-Chart-Revised-March-2019-A4-copy.jpg">
+          <figcaption>Extraction chart</figcaption>
+        </figure>
+        <div id="extract-p-container">
+          <p>
+            A good extraction is balanced.
+            The highly soluble molecules -acids and caffeine-
+            work with the less soluble materials -sugars, oils, and tannins-
+            to give us a well balanced cup.
+          </p>
+          <p>
+            A cup that is sour is under extracted. The acidity is not tempered by the sweetness of sugars,
+            or the bitterness of the oils and tannins. An under extracted cup is thin, it lacks the thickening
+            of these oils.
+          </p>
+          <p>
+            On the otherside of things, an over extracted cup is unbearably bitter.
+            The tannins and oils overwhelm the acidity and sweetness that can be found in a cup of coffee,
+            but marry all the parts and you can experience something wonderful.
+          </p>
+          <p>
+            Coffee contains over 800 aromatic compounds. Wine contains around 400. If you've heard ravings
+            of the diversity of good wine, imagine how complex a fine single origin speciality coffee can be.
+          </p>
+        </div>
+      </div>
+      <div id="var-menu">
+        <h3>
+          When learning to brew, it is important to change one variable at a time to understand its impact on brews.
+        </h3>
+        <div id="var-button-container">
+          <button id="grind-button">Grind</button>
+          <button id="dose-button">Dose</button>
+          <button id="time-button">Time</button>
+          <button id="temperature-button">Temperature</button>
+          <button id="ingredients-button">Ingredients</button>
+        </div>
+      </div>
+      <div id="var-display"></div>
+    </section>
+    <section id="method">
+      <h1>what brewing method fits you?</h1>
+      <div id="descriptions">
+        <button id="drip-desc">Fast, minimal effort, clear cup.</button>
+        <button id="fp-desc">Easily controlled, low-effort, fast, oily cup.</button>
+        <button id="cold-brew">Requires medium effort once a week to brew all the coffee you'll need</button>
+        <button id="pourover-desc">Requires some time, skill, and effort. Yields a cup perfect to your taste.</button>
+      </div>
+      <section id="recipe"></section>
+    </section>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="module" src="scripts.js"></script>
+</body>
+</html>
