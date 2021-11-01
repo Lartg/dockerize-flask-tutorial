@@ -1,20 +1,17 @@
-//refactor as an object
-
-const drip = 
-`<div>
+{% extends "base.html" %}
+  {% block content %}
+  
+<div>
   <h2>Drip:</h2>
-  <figure><img src="IMAGES/drip.jpeg"></figure>
   <ol>
     <li>Grind 20g of coffee/cup of coffee brewed</li>
     <li>Make sure your water resivior is topped off</li>
     <li>Press start.</li>
   </ol>
-</div>`
+</div>
 
-const frenchPress = 
-`<div>
+<div>
   <h2>French Press:</h2>
-  <figure><img src="IMAGES/french press.jpeg"></figure>
     <ol>
       <li>Heat around 1 quart of water to 205 degrees</li>
       <li>Grind 60g of coffee course</li>
@@ -25,12 +22,10 @@ const frenchPress =
       <li>Repeat at 3 minutes</li>
       <li>At 4 minutes, press and enjoy.</li>
     </ol>
-</div>`
+</div>
 
-const coldBrew = 
-`<div>
+<div>
   <h2>Cold Brew:</h2>
-  <figure><img src="IMAGES/coldbrew.jpeg"></figure>
   <h3>Tools:<h3>
   <ol>
     <li>Large spoon</li>
@@ -50,12 +45,11 @@ const coldBrew =
     <li>Refridgerate, and dilute with water when consuming</li>
     <li>Cold Brew is very strong, I recommend starting at 1 part Cold Brew : 2 Parts water</li>
   </ol>
-</div>`
+</div>
 
-const pourOver = 
-`<div>
+<div>
   <h2>Pour Over:</h2>
-  <figure><img src="IMAGES/Basically-Pour-Over-lede.jpeg"></figure>
+
   <h3>Tools:</h3>
   <ol>
     <li>Scale</li>
@@ -71,6 +65,6 @@ const pourOver =
     Also the tools required for repeatable brews are more expensive than the other brew methods.
     I recommend that beginner brewers try one of the other methods, and if they fall in love with brewing their coffee, to invest in a nice pour-over set up.
   </p>
-</div>`
+</div>
 
-export const recipeDivs = [drip,frenchPress,coldBrew,pourOver]
+{% endblock %}
