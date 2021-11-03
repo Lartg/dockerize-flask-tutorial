@@ -1,3 +1,11 @@
 body{
   background-color: black;
 }
+#brew-ratio-calculator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  padding-left: 5em;
+  font-weight: bold;
+}

@@ -42,8 +42,8 @@
         </h3>
       </div>
     </div>
-    <div class="col-md-4">
-      <img src="..." class="img-fluid rounded-start" alt="...">
+    <div class="col-md-4 d-flex">
+      <img src="{{url_for('static', filename='/IMAGES/brewVariablesImages/SCA-Brewing-Chart-Revised-March-2019-A4-copy.jpg')}}" class="img-fluid rounded-start">
     </div>
   </div>
 </div>
@@ -77,6 +77,9 @@
         </p>
       </div>
     </div>
+    <div class="col-md-4 d-flex">
+      <img src="{{url_for('static', filename='/IMAGES/brewVariablesImages/burr grinder.jpeg')}}" class="img-fluid rounded-start">
+    </div>
   </div>
 </div>
 <div class="card mb-3" style="max-width: 1500px;">
@@ -103,7 +106,7 @@
         </p>
       </div>
     </div>
-    <div class="col-md-4">
+    <div id="brew-ratio-calculator"class="col-md-4">
       <label for="dose-input">Dose</label>
       <input id="dose-input" type="range" min="0" max="100" value="22">
       <label for="brew-ratio">Brew Ratio</label>
@@ -143,11 +146,14 @@
         </p>
       </div>
     </div>
+    <div class="col-md-4 d-flex">
+      <img src="{{url_for('static', filename='/IMAGES/brewVariablesImages/infusion.jpg')}}" class="img-fluid rounded-start">
+    </div>
   </div>
 </div>
 <div class="card mb-3" style="max-width: 1500px;">
   <div class="row g-0">
-    <div class="col-md-8">
+    <div class="col-md-12">
       <div class="card-body">
         <h3 class="card-title">Temperature</h3>
         <p class="card-text text-muted">TLDR: More heat = more extraction</p>

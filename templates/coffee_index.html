@@ -2,10 +2,7 @@
  {% block content %}
     <section id="about"></section>
       <div class="card mb-3" style="max-width: 1500px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
-          </div>
+        <div class="row g-0">  
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Cost</h5>
@@ -21,32 +18,32 @@
               </p>
             </div>
           </div>
+          <div class="col-md-4">
+            <img src="{{url_for('static', filename='/IMAGES/home/coffee_spending_graph.jpg')}}" class="img-fluid rounded-start" alt="...">
+          </div>
         </div>
       </div>
-      <div class="card mb-3 my-5" style="max-width: 1200px;">
+      <div class="card mb-3 my-5" style="max-width: 1500px;">
         <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{{url_for('static', filename='/IMAGES/home/seiko.jpg')}}" class="img-fluid rounded-start" alt="...">
+          </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Time</h5>
               <h6 class="card-text">Faster</h6>
               <p class="card-text">
-                On average it takes a 10 minute round trip for me to get to a cafe from my house.&nbsp;
-                Factor in ~5 minutes in line, and ~5 minutes until I get my drink, and I've spent 20 minutes getting coffee.
+                Its out of one's way to get coffee from a cafe.&nbsp;
+                Factor in ~5 minutes in line, and ~5 minutes until one gets their drink, and they've at least 10 minutes getting coffee.
                 &nbsp;
-                At home I can brew coffee in less than 5 minutes, saving time and money.
+                At home one can brew coffee in less than 5 minutes, saving time and money.
               </p>
             </div>
           </div>
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
-          </div>
         </div>
       </div>
-      <div class="card mb-3 my-5" style="max-width: 1200px;">
+      <div class="card mb-3 my-5" style="max-width: 1500px;">
         <div class="row g-0">
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
-          </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Flavor</h5>
@@ -57,6 +54,9 @@
               perfectly match their tastes.
               </p>
             </div>
+          </div>
+          <div class="col-md-4">
+            <img src="{{url_for('static', filename='/IMAGES/home/flavor-wheel.jpeg')}}" class="img-fluid rounded-start" alt="...">
           </div>
         </div>
     </div>
