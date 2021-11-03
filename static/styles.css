@@ -18,6 +18,10 @@ body{
   font-weight: bold;
 }
 footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
   background-color: #310306;
   margin: 0;
+  font-size: 5px;
 }
