@@ -1,45 +1,65 @@
-
- {% extends "base.html" %}
+{% extends "base.html" %}
  {% block content %}
-    
     <section id="about"></section>
-      <div id="cost-card">
-        <h3>Cost</h3>
-        <div class="about-card-text">
-          <h4>Cheaper</h4>
-          <p>A 12oz latte costs -on average- $4.00. &nbsp;
-            However, ~$17 nets a 1 lbs bag of whole bean, speciality coffee. &nbsp;
-            That comes out to ~23 cups of coffee/bag, or ~$0.75/cup. &nbsp;
-            It's even cheaper when buying commercial coffee in bulk. &nbsp;
-            Coffee is a commodity. &nbsp;
-            It's cheap. &nbsp;
-            Coffee being expensive at a cafe is a result of the accrued costs of running a business.
-          </p>
-      </div>
-      </div>
-      <div id="time-card">
-        <h3>Time</h3>
-        <div class="about-card-text">
-          <h4>Faster</h4>
-          <p>
-            On average it takes a 10 minute round trip for me to get to a cafe from my house.&nbsp;
-            Factor in ~5 minutes in line, and ~5 minutes until I get my drink, and I've spent 20 minutes getting coffee.
-            &nbsp;
-            At home I can brew coffee in less than 5 minutes, saving time and money.
-          </p>
-      </div>
-      </div>
-      <div id="flavor-card">
-        <h3>Flavor</h3>
-        <div class="about-card-text">
-          <h4>Brew perfect coffee</h4>
-          <p>
-            Something about the routine of brewing is satsfying and calming. &nbsp;
-            But beyond that, one is able -with experience- to control variables of brewing to curtail their recipe to
-            perfectly match their tastes.
-          </p>
+      <div class="card mb-3" style="max-width: 1500px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Cost</h5>
+              <h6 class="card-text">Cheaper</h6>
+              <p class="card-text">
+                A 12oz latte costs -on average- $4.00. &nbsp;
+                However, ~$17 nets a 1 lbs bag of whole bean, speciality coffee. &nbsp;
+                That comes out to ~23 cups of coffee/bag, or ~$0.75/cup. &nbsp;
+                It's even cheaper when buying commercial coffee in bulk. &nbsp;
+                Coffee is a commodity. &nbsp;
+                It's cheap. &nbsp;
+                Coffee being expensive at a cafe is a result of the accrued costs of running a business.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="card mb-3 my-5" style="max-width: 1200px;">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Time</h5>
+              <h6 class="card-text">Faster</h6>
+              <p class="card-text">
+                On average it takes a 10 minute round trip for me to get to a cafe from my house.&nbsp;
+                Factor in ~5 minutes in line, and ~5 minutes until I get my drink, and I've spent 20 minutes getting coffee.
+                &nbsp;
+                At home I can brew coffee in less than 5 minutes, saving time and money.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 my-5" style="max-width: 1200px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Flavor</h5>
+              <h6 class="card-text">Brew perfect coffee</h6>
+              <p class="card-text">
+              Something about the routine of brewing is satsfying and calming. &nbsp;
+              But beyond that, one is able -with experience- to control variables of brewing to curtail their recipe to
+              perfectly match their tastes.
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
     </section>
-
     {% endblock %}
