@@ -1,5 +1,13 @@
 body{
-  background-color: black;
+  background-color: #5d1916;
+}
+#menu{
+  background-color: #310306;
+  margin-bottom: 3em;
+  
+}
+.card{
+  background-color: #fffaff;
 }
 #brew-ratio-calculator{
   display: flex;

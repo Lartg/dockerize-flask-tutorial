@@ -1,12 +1,3 @@
-/* <label for="dose-input">Dose</label>
-<input id="dose-input" type="range" min="0" max="100" value="22">
-<label for="brew-ratio">Brew Ratio</label>
-<input id="brew-ratio" type="range" min="0" max="20" value="16">
-<p id="dose-output"></p> 
-<p id="brew-output"></p>
-<p id="water-output"></p>
-*/
-
 //ins
 const doseInput = document.querySelector('#dose-input')
 const brewRatio = document.querySelector('#brew-ratio')
